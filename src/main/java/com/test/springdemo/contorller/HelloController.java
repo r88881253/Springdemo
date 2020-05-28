@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping
     public String helloGradle() {
-        return "Hello Gradle!\nUpdate Success 3!";
+        return "Hello Gradle!\nUpdate Success 7 !";
     }
 }
