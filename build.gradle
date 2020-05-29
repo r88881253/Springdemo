@@ -27,3 +27,7 @@ test {
 bootBuildImage{
 	imageName = "r88881253/springdemo"
 }
+
+task callCL(type: Exec) {
+	commandLine 'sh', '-c', 'echo Hello world'
+}
